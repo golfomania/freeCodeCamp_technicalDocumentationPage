@@ -1,0 +1,28 @@
+/*css for complete document*/
+body {
+  font-family: "Thasadith", sans-serif;
+  background-color: rgb(107, 160, 153);
+  color: #554200;
+}
+
+/*header*/
+header {
+  font-size: 1.5em;
+}
+
+/*nav bar*/
+nav li {
+  font-size: 1.2em;
+}
+
+/*css grid*/
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+  grid-template-rows: repeat(10, auto);
+}
+
+.navelement {
+  background-color: rgb(0, 53, 46);
+  color: rgb(36, 107, 97);
+}
