@@ -20,9 +20,15 @@ nav li {
   display: grid;
   grid-template-columns: 0.2fr 0.8fr;
   grid-template-rows: repeat(10, auto);
+  grid-gap: 5px;
 }
 
 .navelement {
   background-color: rgb(0, 53, 46);
+  color: rgb(36, 107, 97);
+}
+
+.box {
+  background-color: rgb(36, 37, 37);
   color: rgb(36, 107, 97);
 }
