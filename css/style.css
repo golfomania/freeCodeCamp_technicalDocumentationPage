@@ -21,7 +21,7 @@ body {
     "nav6 main";
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .gridcontainer {
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-areas:
@@ -31,6 +31,9 @@ body {
       "nav3 nav4"
       "nav5 nav6"
       "main main";
+  }
+  .heading {
+    font-size: 2em;
   }
 }
 
@@ -59,7 +62,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 3em;
-  height: 150px;
+  height: 100px;
 }
 .main {
   grid-area: main;
