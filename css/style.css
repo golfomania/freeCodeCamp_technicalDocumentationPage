@@ -98,3 +98,9 @@ img {
   height: auto;
   max-width: 150px;
 }
+
+/*article header*/
+.article_header {
+  margin-top: 1em;
+  font-weight: bold;
+}
